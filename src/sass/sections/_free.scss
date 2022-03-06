@@ -1,0 +1,117 @@
+.free {
+  position: relative;
+  margin: 4rem 4rem;
+  .container {
+    display: flex;
+    background-color: #ae8fdc;
+    position: relative;
+    height: 58rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    z-index: 1;
+    .background {
+      z-index: -1;
+      .ellipse {
+        position: absolute;
+        height: 130%;
+        width: 30rem;
+        border-radius: 100%;
+        filter: blur(100px);
+      }
+      .pink {
+        top: -15%;
+        left: -15%;
+        background-color: #c3d6f2;
+      }
+      .green {
+        top: -15%;
+        right: -15%; 
+        background-color: #fadee1 ;
+      }
+    }
+    .content {
+      text-align: justify;
+      color: black;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding-top: 2rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      .image {
+        img {
+        }
+      }
+      .title {
+        font-size: 2.5rem;
+        text-align: center;
+      }
+      .description {
+        font-size: 1.1rem;
+      }
+    }
+  }
+  .cards {
+    display: flex;
+    position: absolute;
+    top: -2rem;
+    right: 40%;
+    .card1 {
+      top: 0;
+      position: absolute;
+      transform: rotate(-10deg);
+      z-index: 3;
+      font-size: 0.6rem;
+      .card-image {
+        img {
+          height: 10rem;
+          width: 12rem;
+        }
+      }
+    }
+    .card2 {
+      top: 0;
+      z-index: 2;
+      position: absolute;
+      left: 10rem;
+      transform: rotate(5deg);
+      font-size: 0.7rem;
+      .card-image {
+        img {
+          height: 10rem;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 280px) and (max-width: 1080px) {
+    margin: 0;
+    .container {
+      padding: 1rem 2rem;
+      height: 40vh;
+      border-radius: 0;
+      .background {
+        .pink {
+          left: -70%;
+        }
+        .green {
+          right: -100%;
+        }
+      }
+      .content {
+        padding: 0;
+        font-size: 16px;
+        gap: 1rem;
+        .title {
+          font-size: 22px;
+        }
+      }
+    }
+    .cards {
+      .card1,
+      .card2 {
+        zoom: 0.3;
+      }
+    }
+  }
+}
