@@ -19,9 +19,9 @@ export default function Release() {
           <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" rel="noreferrer" className="link">
             Discord<BsArrowRight />
           </a>
-          <a className="link">
+          <p className="link">
             MagicEden<BsArrowRight />
-          </a>
+          </p>
         </div>
         <div className="image">
           <img src={release1} alt="release" />
@@ -40,7 +40,7 @@ export default function Release() {
         <div className="content">
           <h2 className="title">Genesis Collection</h2>
           <p className="description">
-            333 Genesis Pastel Duck NFTs will make their arrival in March. <a>Mint</a>
+            333 Genesis Pastel Duck NFTs will make their arrival in March. <p>Mint</p>
           </p>
           <p className="description">
             Genesis Ducks are for the early supporters. Holders can earn passive income as well as exclusive access to Alphas/Partnerships. Granted early access into Pastel DAO!
@@ -51,9 +51,9 @@ export default function Release() {
           <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" rel="noreferrer" className="link">
             Discord<BsArrowRight />
           </a>
-          <a className="link">
+          <p className="link">
             MagicEden<BsArrowRight />
-          </a>
+          </p>
         </div>
       </div>
     </div>
