@@ -9,7 +9,6 @@ import Navbar from "./components/Navbar";
 import Release from "./components/Release";
 
 import ScrollToTop from "./components/ScrollToTop";
-import Signup from "./components/Signup";
 
 import scrollreveal from "scrollreveal";
 import "./sass/index.scss";
