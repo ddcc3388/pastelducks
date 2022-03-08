@@ -13,13 +13,13 @@ export default function Release() {
             Pastel Ducks are an exclusive collection of 333 Genesis Duck NFTs on the Solana blockchain, backed by NFT collectors, designers, community builders, and artists. This is a WL only project. The Genesis collection will allow holders to stake their NFT to earn $PSTL and breed new NFTs.
           </p>
           <p className="description"></p>
-          <a href="https://twitter.com/solpastelducks" target="_blank" className="link">
+          <a href="https://twitter.com/solpastelducks" target="_blank" rel="noreferrer" className="link">
             Twitter<BsArrowRight />
           </a>
-          <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" className="link">
+          <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" rel="noreferrer" className="link">
             Discord<BsArrowRight />
           </a>
-          <a href="#" className="link">
+          <a className="link">
             MagicEden<BsArrowRight />
           </a>
         </div>
@@ -40,18 +40,18 @@ export default function Release() {
         <div className="content">
           <h2 className="title">Genesis Collection</h2>
           <p className="description">
-            333 Genesis Pastel Duck NFTs will make their arrival in March. <a href="#">Mint</a>
+            333 Genesis Pastel Duck NFTs will make their arrival in March. <a>Mint</a>
           </p>
           <p className="description">
             Genesis Ducks are for the early supporters. Holders can earn passive income as well as exclusive access to Alphas/Partnerships. Granted early access into Pastel DAO!
           </p>
-          <a href="https://twitter.com/solpastelducks" target="_blank" className="link">
+          <a href="https://twitter.com/solpastelducks" target="_blank" rel="noreferrer" className="link">
             Twitter<BsArrowRight />
           </a>
-          <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" className="link">
+          <a href="https://discord.gg/nhX3HqN6aJ" target="_blank" rel="noreferrer" className="link">
             Discord<BsArrowRight />
           </a>
-          <a href="#" className="link">
+          <a className="link">
             MagicEden<BsArrowRight />
           </a>
         </div>
